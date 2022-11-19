@@ -1,0 +1,10 @@
+name: vpred
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scipy
