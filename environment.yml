@@ -1,10 +1,14 @@
-name: vpred
+name: v_pred
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - jupyter
-  - numpy
-  - pandas
-  - matplotlib
-  - scikit-learn
-  - scipy
+ - pip
+ - ipython
+ - jupyter
+ - numpy
+ - scipy
+ - pandas
+ - matplotlib
+ - pip:
+   - -r requirements.txt
