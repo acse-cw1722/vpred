@@ -1,6 +1,7 @@
-name: v_pred
+name: ml
 channels:
   - defaults
+  - apple
   - conda-forge
 dependencies:
  - pip
@@ -10,5 +11,7 @@ dependencies:
  - scipy
  - pandas
  - matplotlib
+ - tensorflow-deps
  - pip:
+   - tensorflow-macos
    - -r requirements.txt

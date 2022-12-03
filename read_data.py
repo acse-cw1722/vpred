@@ -8,11 +8,11 @@ def get_vid_path(root=os.sep.join([
         'VIDEOS'
         ])):
     files_path = []
-    print(root)
+    # print(root)
     for root, _, files in os.walk(root):
         for file in files:
             files_path.append(os.sep.join([root, file]))
-            print(files_path)
+            # print(files_path)
     return files_path
 
 
@@ -24,7 +24,7 @@ def build_data_set(paths):
         vid = get_vid(cap)
         data.append(vid)
     cap.release()
-    print(len(data))
+    # print(len(data))
     return np.stack(data, axis=0)
 
 
