@@ -12,6 +12,7 @@ dependencies:
  - pandas
  - matplotlib
  - tensorflow-deps
+ - pytorch-ignite
  - pip:
    - tensorflow-macos
    - -r requirements.txt
